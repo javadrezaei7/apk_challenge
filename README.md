@@ -34,6 +34,10 @@ systemctl daemon-reload
 systemctl enable apk.service
 systemctl start apk.service
 ```
+You can update config file by this command.
+```bash
+curl -XPOST -H 'Content-Type=application/json' 127.0.0.1:3000/configapi -d '{DATA IN JSON FORMAT}'
+```
 
 ## Installation
 You can also install .deb package.
