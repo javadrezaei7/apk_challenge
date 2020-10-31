@@ -18,7 +18,7 @@ class Apk:
         Send syslog UDP packet to given host and port.
         """
 
-    def __init__(self, host='127.0.0.1', port=514, configaddr='/home/javad/Desktop/apk_test_MJavadRezaei/codes/config.json'):
+    def __init__(self, host='127.0.0.1', port=514, configaddr='config.json'):
         self.host = host
         self.port = port
         self.configaddr = configaddr
