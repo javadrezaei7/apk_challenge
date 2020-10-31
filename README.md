@@ -34,13 +34,12 @@ systemctl enable apk.service
 systemctl start apk.service
 ```
 
-##Installation
-
-you can also install .deb package.
+## Installation
+You can also install .deb package.
  ```bash
  dpkg -i apk_1.0_all.deb
  ```
-after that the package's files will be stored in /usr/share/apk
+After that the package's files will be stored in /usr/share/apk
 and apk.service will be started.
 
 I used python 3.8.5 for this package.
