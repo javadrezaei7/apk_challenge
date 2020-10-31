@@ -1,4 +1,5 @@
 # apk_challenge
+This package is a challenge test from Amn Pardazan Kavir. This service stores excess index documents from Elasticsearch into syslog and then deletes them from Elasticsearch.
 
 Use the package manager pip to install requirements.txt
 
