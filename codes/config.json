@@ -1,0 +1,14 @@
+{
+  "product": {
+    "max_value": "100",
+    "check_time": "* * * * *"
+  },
+  "product2": {
+    "max_value": "200",
+    "check_time": "* * * * *"
+  },
+  "product3": {
+    "max_value": "300",
+    "check_time": "* * * * *"
+  }
+}
